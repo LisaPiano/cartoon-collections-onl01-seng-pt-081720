@@ -18,7 +18,7 @@ array.any? {|call|
 }
 end
 
-def find_the_cheese(array) 
+def find_the_cheese(array)
   array.include("cheddar", "gouda", "camembert")
 
 end
