@@ -29,6 +29,8 @@ def find_the_cheese(array)
     array.include?("camembert") == true
     puts "camembert"
   else
-    nil
-end
-end
+    puts nil
+  
+end#if
+end#method
+
