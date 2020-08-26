@@ -21,15 +21,15 @@ end
 def find_the_cheese(array)
   if
   array.include?("cheddar") == true
-  puts "cheddar"
+  "cheddar"
   elsif
     array.include?("gouda") == true
-    puts "gouda"
+     "gouda"
   elsif
     array.include?("camembert") == true
-    puts "camembert"
+     "camembert"
   else
-    puts nil
+     nil
 
 end#if
 end#method
