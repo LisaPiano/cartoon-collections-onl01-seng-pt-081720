@@ -30,7 +30,6 @@ def find_the_cheese(array)
     puts "camembert"
   else
     puts nil
-  
+
 end#if
 end#method
-
