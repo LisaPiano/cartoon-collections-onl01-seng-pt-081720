@@ -19,6 +19,16 @@ array.any? {|call|
 end
 
 def find_the_cheese(array)
-  array.include("cheddar", "gouda", "camembert")
-
+  if
+  array.include?("cheddar") == true
+  puts "cheddar"
+  elsif
+    array.include?("gouda") == true
+    puts "gouda"
+  elsif
+    array.include?("camembert") == true
+    puts "camembert"
+  else
+    nil
+end
 end
